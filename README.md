@@ -79,27 +79,40 @@ public class MainActivity extends AppCompatActivity {
         //Creating the Canvas Object
         Canvas canvas = new Canvas(bg);
         //Creating the Paint Object and set its color & TextSize
-        Paint paint = new Paint();
-        paint.setColor(Color.GREEN);
-        paint.setTextSize(50);
+        Paint paint1 = new Paint();
+        paint1.setColor(Color.GREEN);
+        paint1.setTextSize(50);
+
+        Paint paint2 = new Paint();
+        paint2.setColor(Color.RED);
+        paint2.setTextSize(50);
+
+        Paint paint3 = new Paint();
+        paint3.setColor(Color.BLUE);
+        paint3.setTextSize(50);
+
+        Paint paint4 = new Paint();
+        paint4.setColor(Color.BLACK);
+        paint4.setTextSize(50);
         //To draw a Circle
-        canvas.drawText("Circle", 120, 150, paint);
-        canvas.drawCircle(200, 350, 150, paint);
+        canvas.drawText("Circle", 120, 150, paint1);
+        canvas.drawCircle(200, 350, 150, paint1);
         //To draw a Rectangle
-        canvas.drawText("Rectangle", 420, 150, paint);
-        canvas.drawRect(400, 200, 650, 700, paint);
+        canvas.drawText("Rectangle", 420, 150, paint2);
+        canvas.drawRect(400, 200, 650, 700, paint2);
         //To draw a Square
-        canvas.drawText("Square", 120, 800, paint);
-        canvas.drawRect(50, 850, 350, 1150, paint);
+        canvas.drawText("Square", 120, 800, paint3);
+        canvas.drawRect(50, 850, 350, 1150, paint3);
         //To draw a Line
-        canvas.drawText("Line", 500, 800, paint);
-        canvas.drawLine(520, 850, 520, 1150, paint);
+        canvas.drawText("Line", 500, 800, paint4);
+        canvas.drawLine(520, 850, 520, 1150, paint4);
     }
 }
 ```
 
 ## OUTPUT
-![image](https://github.com/SudharsanamRK/graphicsinandroid/assets/115523484/6cd88673-28aa-48f3-8998-ee34c49b7f62)
+<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/60bc0ea4-031d-46b3-89c8-a5a80fedebbe" />
+
 
 
 ## RESULT
